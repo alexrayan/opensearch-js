@@ -1200,26 +1200,8 @@ test('Issue #253 with promises', async t => {
     onRequest (params) {
       return {
         statusCode: 200,
-        headers: {
-          'x-elastic-product': 'Elasticsearch'
-        },
-        body: {
-          name: '1ef419078577',
-          cluster_name: 'docker-cluster',
-          cluster_uuid: 'cQ5pAMvRRTyEzObH4L5mTA',
-          version: {
-            number: '8.0.0-SNAPSHOT',
-            build_flavor: 'default',
-            build_type: 'docker',
-            build_hash: '5fb4c050958a6b0b6a70a6fb3e616d0e390eaac3',
-            build_date: '2021-07-10T01:45:02.136546168Z',
-            build_snapshot: true,
-            lucene_version: '8.9.0',
-            minimum_wire_compatibility_version: '7.15.0',
-            minimum_index_compatibility_version: '7.0.0'
-          },
-          tagline: 'You Know, for Search'
-        }
+        headers: {},
+        body: {}
       }
     }
   })
@@ -1265,26 +1247,8 @@ test('Issue #253 with callbacks', t => {
     onRequest (params) {
       return {
         statusCode: 200,
-        headers: {
-          'x-elastic-product': 'Elasticsearch'
-        },
-        body: {
-          name: '1ef419078577',
-          cluster_name: 'docker-cluster',
-          cluster_uuid: 'cQ5pAMvRRTyEzObH4L5mTA',
-          version: {
-            number: '8.0.0-SNAPSHOT',
-            build_flavor: 'default',
-            build_type: 'docker',
-            build_hash: '5fb4c050958a6b0b6a70a6fb3e616d0e390eaac3',
-            build_date: '2021-07-10T01:45:02.136546168Z',
-            build_snapshot: true,
-            lucene_version: '8.9.0',
-            minimum_wire_compatibility_version: '7.15.0',
-            minimum_index_compatibility_version: '7.0.0'
-          },
-          tagline: 'You Know, for Search'
-        }
+        headers: {},
+        body: {}
       }
     }
   })
